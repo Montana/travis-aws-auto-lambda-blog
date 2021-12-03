@@ -158,7 +158,7 @@ Let's encrypt our AWS Key ID to the root file. We'll also want to add our `secre
 travis encrypt AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY --add env.global
 ```
 
-So we are all set on the Travis end, now we want to build and upload! 
+So we are all set on the Travis end, now we want to build and upload:
 
 ```aws
 .MONTANAPHONY: build clean upload
